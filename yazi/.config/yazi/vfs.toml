@@ -1,0 +1,11 @@
+[services.mail2]
+type = "sftp"
+host = "mail2.mazovia.pl"
+user = "jakub"
+port = 22
+[services.docker-swarm-m1]
+type = "sftp"
+host = "172.16.250.11"
+user = "jakub"
+port = 22
+key_file = "/home/jwojna/docker-project-ssh/id_rsa"

@@ -1,0 +1,4 @@
+[[mgr.prepend_keymap]]
+on   = [ "c", "m", "1" ]
+run  = "cd sftp://docker-swarm-m1"
+desc = "Go to docker-swarm-m1"
